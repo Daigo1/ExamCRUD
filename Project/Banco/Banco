@@ -1,0 +1,6 @@
+CREATE TABLE `EXAMES` (
+  `exame` VARCHAR(10) DEFAULT NULL,
+  `candidato` VARCHAR(25) NOT NULL,
+  `data` DATE DEFAULT NULL,
+  PRIMARY KEY (`candidato`)
+);
